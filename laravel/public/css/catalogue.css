@@ -1,0 +1,78 @@
+/*--------HEADER----------*/
+#cat
+{
+  text-decoration: underline;
+}
+/*------CATALOGUE------*/
+body{
+    background-color: white;
+}
+.cattitle{
+    font-size: 45px;
+    margin-left: 635px;
+    font-size: 35px;
+    font-family: Didot;
+    font-style: italic;
+    color: black;
+  }
+  img{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+  }
+  .box {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+
+      /* display: flex; */
+      /* justify-content: space-between; */
+      /* flex-direction: row; */
+      /* padding-bottom: 15px; */
+      /* display: flex;
+      flex-direction: row;
+      justify-content: space-between; */
+  }
+  .align{
+    text-align: center;
+  }
+  /*.button{
+    font-size: 10px;
+    font-family: Didot;
+    outline: 0;
+     padding: 3px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }*/
+  .card {
+   /* box-shadow: 0 8px 16px 0 rgb(250, 249, 249);*/
+    max-width: 300px;
+    margin: auto;
+    border: none;
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 1.35px;
+  }
+  .card input {
+    border: solid;
+    outline: 0;
+    padding: 1px;
+    color: black;
+    background-color: white;
+    font-family: Didot;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 10px;
+    border-width: 1.35px;
+  }
+  .card input:hover, body div div a:hover {
+    opacity: 0.5;
+  }

@@ -1,0 +1,97 @@
+/*--------HEADER----------*/
+/*header{
+  padding-bottom: 100px;
+}*/
+/* .centrage{
+	text-align: center;
+}
+header li{
+	display: inline;
+}
+header a{
+  font-size: 20px;
+  font-family: Didot;
+  color: black;
+}
+.line{
+	display: inline;
+}
+#sitename{
+  float: left;
+  margin-top: 5px;
+  font-size: 30px;
+  font-style: italic;
+}
+#connectuser{
+  font-size: 15px;
+  font-family: Didot;
+  color: black;
+  float: right;
+  margin-top: 5px;
+} */
+/*--------FOOTER----------*/
+/* .bas{
+position: absolute;
+bottom: 1%;
+}
+.txtfoot{
+	font-size: 10px;
+	font-family: Apple Chancery, cursive;
+	color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white; */
+}
+/*------POLICE-----*/
+.didot{
+  font-size: 20px;
+  font-family: Didot;
+  color: black;
+}
+
+/*---------ADMIN---------*/
+/* body #addiv{
+  padding-top: 150px;
+  font-family: Didot;
+} */
+label
+{
+	display: block;
+	width: 150px;
+	float: left;
+}
+.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+#addiv {
+  padding-top: 100px;
+  font-family: Didot;
+    box-shadow: 0 8px 16px 0 rgb(250, 249, 249);
+    max-width: 300px;
+    margin: auto;
+    /* border: double; */
+    border-radius: 10px;
+    border-color: grey;
+    
+  }
+  fieldset{
+    border-radius: 10px;
+    border-color: grey;
+  }

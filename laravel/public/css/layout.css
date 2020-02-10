@@ -1,0 +1,97 @@
+/*--------HEADER----------*/
+ .centrage{
+    text-align: center;
+}
+header li{
+    display: inline;
+} 
+header a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Didot;
+}
+header a:hover{
+  text-decoration: underline;
+}
+.sur{
+  text-decoration: underline;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .flex{
+  display: flex;
+  justify-content: space-between;
+} */
+#sitename{
+  /* color: black;*/
+  font-size: 30px; 
+  font-style: italic;
+  /* float: left; */
+  margin-top: 5px;
+  /* text-decoration: none; */
+}
+.connectuser{
+  /* float: right; */
+  margin-top: 5px;
+}
+.confont{
+  margin-right: 5px;
+  /* font-style: italic;
+   color: black;
+  font-size: 25px;
+  font-family: Didot; */
+}
+.logout{
+  /* margin-top: 0px; */
+  font-size: 15px;
+    color: rgb(179, 174, 174);
+    /*font-family: Didot;*/
+    text-decoration: none;
+}
+/*--------FOOTER----------*/
+.bas
+{
+  position: absolute;
+  bottom : 0;
+  /* width: 100%;
+  display: flex; */
+  /* align-items: center;
+  display: flex;
+  justify-content: space-between; */
+}
+.txtfoot{
+    font-size: 10px;
+    font-family: Apple Chancery, cursive;
+    color: white;
+}
+.fa {
+  padding: 10px;
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+body footer .fa:hover{
+  opacity: 0.5;
+}
+/*------POLICE-----*/
+/* .didot{
+  font-size: 20px;
+  font-family: Didot;
+  color: black;
+} */
